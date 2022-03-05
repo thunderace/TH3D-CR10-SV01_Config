@@ -1548,10 +1548,10 @@
 
   // Reverse SD sort to show "more recent" files first, according to the card's FAT.
   // Since the FAT gets out of order with usage, SDCARD_SORT_ALPHA is recommended.
-  //#define SDCARD_RATHERRECENTFIRST
+  #define SDCARD_RATHERRECENTFIRST
 
   #if DISABLED(SPACE_SAVER) && DISABLED(SPACE_SAVER_2560)
-    #define SD_MENU_CONFIRM_START             // Confirm the selected SD file before printing
+    //#define SD_MENU_CONFIRM_START             // Confirm the selected SD file before printing
   #endif
 
   #define NO_SD_AUTOSTART                   // Remove auto#.g file support completely to save some Flash, SRAM

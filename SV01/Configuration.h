@@ -17,7 +17,7 @@
 //===========================================================================
 // ******************   SOVOL PRINTERS 2560 CPU BOARD   *********************
 //===========================================================================
-//#define SOVOL_SV01
+#define SOVOL_SV01
 //#define SOVOL_SV03
 
 // EZABL Probe Mounts - Uncomment the mount you are using for your EZABL to enable EZABL support in the firmware.
@@ -27,7 +27,7 @@
 
 // Creality/Sovol 2560 Silent Board
 // If you are using the 2560 based "Silent" board with TMC drivers enable the below setting
-//#define CREALITY_SILENT_BOARD
+#define CREALITY_SILENT_BOARD
 
 // EZNeo Settings -----------------------------------------------------------
 // If you are using an EZNeo strip on your printer, uncomment the line for what strip you are using.
@@ -233,7 +233,7 @@
 // If you want to use manual mesh leveling you can enable the below option. This is for generating a MANUAL mesh WITHOUT a probe. To change the mesh inset value change the EZABL_PROBE_EDGE setting above.
 // Mesh Bed Leveling Documentation: http://marlinfw.org/docs/gcode/G029-mbl.html 
 // NOTE: If you want to automate the leveling process our EZABL kits do this for you. Check them out here: http://EZABL.TH3DStudio.com
-//#define MANUAL_MESH_LEVELING
+#define MANUAL_MESH_LEVELING
 
 // POWER LOSS RECOVERY -----------------------------
 // Continue after Power-Loss feature will store the current state to the SD Card at the start of each layer
