@@ -187,7 +187,7 @@
 //#define USER_PRINTER_NAME "CHANGE ME"
 
 // If your printer is homing to the endstops hard uncomment this to change the homing speed/divisor to make it less aggressive.
-//#define SLOWER_HOMING
+#define SLOWER_HOMING
 
 //===========================================================================
 //****************** COMMUNITY REQUESTED FEATURES ***************************
@@ -440,7 +440,7 @@
   #define INVERT_E6_DIR false
   #define INVERT_E7_DIR false
 
-  #define FILAMENT_RUNOUT_SENSOR
+  //#define FILAMENT_RUNOUT_SENSOR
 
   #if ENABLED(FILAMENT_RUNOUT_SENSOR)
     #define FIL_RUNOUT_ENABLED_DEFAULT true // Enable the sensor on startup. Override with M412 followed by M500.
