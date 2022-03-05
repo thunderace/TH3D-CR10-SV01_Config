@@ -33,7 +33,7 @@
 //#define ENDER3_V2_V427_BOARD
 //#define ENDER5_V427_BOARD
 
-//#define CR10_V427_BOARD
+#define CR10_V427_BOARD
 //#define CR10MINI_V427_BOARD
 //#define CR10S4_V427_BOARD
 //#define CR10S5_V427_BOARD
@@ -262,7 +262,7 @@
 // PID BED TEMPERATURE CONTROL ---------------------
 // If you want PID Bed Temperature control enable the below line. You will need to tune it for your machine.
 // See the PID Bed setup guide here: https://www.th3dstudio.com/hc/guides/diy-guides/p-i-d-bed-calibration-guide/
-//#define ENABLE_PIDBED
+#define ENABLE_PIDBED
 
 // Z PROBE OFFSET WIZARD ---------------------------
 // Marlin has a Z Probe Offset Wizard now. If you want to enable this, uncomment the below line.
@@ -290,7 +290,7 @@
 // If you want to use manual mesh leveling you can enable the below option. This is for generating a MANUAL mesh WITHOUT a probe.
 // Mesh Bed Leveling Documentation: http://marlinfw.org/docs/gcode/G029-mbl.html 
 // NOTE: If you want to automate the leveling process our EZABL kits do this for you. Check them out here: http://EZABL.TH3DStudio.com
-//#define MANUAL_MESH_LEVELING
+#define MANUAL_MESH_LEVELING
 
 // POWER LOSS RECOVERY -----------------------------
 // Continue after Power-Loss feature will store the current state to the SD Card at the start of each layer
@@ -368,7 +368,7 @@
 
   #define DEFAULT_EJERK    5.0
 
-  #define SHOW_BOOTSCREEN
+  //#define SHOW_BOOTSCREEN
 
   #define EXTRUDERS 1
 
